@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rouge Script';
+    font-size: 9.5vw;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+
+.jumbotron-fluid {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.fab {
+    font-size: 5vw;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Thanks to fqhv on StackOverflow for the Instagram Hover method */
+
+.fa-instagram:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f58529 0%, #feda77 25%, #dd2a7b 50%, #8134af 75%, #515bd4 100%); 
+    background: -webkit-linear-gradient(45deg, #f58529 0%,#feda77 25%,#dd2a7b 50%,#8134af 75%,#515bd4 100%); 
+    background: linear-gradient(45deg, #f58529 0%,#feda77 25%,#dd2a7b 50%,#8134af 75%,#515bd4 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.fa-facebook-square:hover {
+    color: #4267B2;
+}
+
+.fa-soundcloud:hover {
+    color: #ff8800;
+}
+
+.socialmedialink {
+    color: black;
+}
