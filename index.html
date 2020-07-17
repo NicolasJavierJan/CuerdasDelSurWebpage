@@ -1,54 +1,248 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <html>
-    <head>
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
-        crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/32eb07b8f6.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="static/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
-        <!-- Page Title -->
-        <title>
-            Cuerdas del Sur - Música para Eventos 
-        </title>
-    </head>
-    <body>
-        <div class="container-fluid">
-            <img src="static/Image01.JPG">
-            <div class="title">Cuerdas del Sur</div>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/32eb07b8f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+
+    <!-- Script (thanks to Guffa in StackOverflow for the code snippet!) -->
+    <script>
+        function show(shown, hidden) {
+            document.getElementById(shown).style.display = 'block';
+            document.getElementById(hidden).style.display = 'none';
+            return false;
+        }
+    </script>
+
+    <!-- Page Title -->
+
+    <title>
+        Cuerdas del Sur - Música para Eventos
+    </title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <img src="static/Image01.JPG">
+        <div class="title">Cuerdas del Sur</div>
+    </div>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="row">
+            <div class="col">
+                <a href="https://www.instagram.com/cuerdasdelsureventos" class="socialmedialink">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.facebook.com/cuerdasdelsur" class="socialmedialink">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://soundcloud.com/cuerdas-del-sur" class="socialmedialink">
+                    <i class="fab fa-soundcloud"></i>
+                </a>
+            </div>
         </div>
-        <div class="jumbotron jumbotron-fluid">
+    </div>
+    <div class="row">
+        <div class="col">
+            <a href="#" onclick="return show('Page1','Page2');">
+                <h1>Sobre Nosotros</h1>
+            </a>
+        </div>
+        <div class="col">
+            <a href="#" onclick="return show('Page2','Page1');">
+                <h1>Contacto</h1>
+            </a>
+
+        </div>
+    </div>
+    <div id="Page1">
+        <div class="container-aboutUs">
             <div class="row">
-                <div class="col">
-                    <a href="https://www.instagram.com/cuerdasdelsureventos" class="socialmedialink">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+                <div class="col-6">
+                    <div class="container-quartet">
+                        <img src="static/Image02.JPG" class="bice-marisol">
+                    </div>
                 </div>
-                <div class="col">
-                    <a href="https://www.facebook.com/cuerdasdelsur" class="socialmedialink">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="https://soundcloud.com/cuerdas-del-sur" class="socialmedialink">
-                        <i class="fab fa-soundcloud"></i>
-                    </a>
+                <div class="col-6">
+                    <p style="font-family: 'Rouge Script'; font-size: 3vw;">María Bice Gambandé</p>
+                    <p>Comenzó sus estudios musicales en la Escuela Provincial de Música de Rosario, egresando en el
+                        2012.
+                        Posteriormente realizó sus estudios de Licenciatura en Violín en la Escuela de Música de la
+                        Universidad
+                        Nacional Rosario. A mediados del 2004 empezó a tomar clases particulares de violín con el
+                        Maestro Luis
+                        Ciliberti hasta el 2016. También tomó clases particulares con el Maestro Oleg Pishenin.</p>
+                    <p>Participó como solista junto a la Orquesta de Cámara Municipal de la ciudad de Rosario. En el
+                        2012 ingresó
+                        a la Orquesta Típica Carlos Quilici realizando giras en 2014 y 2016 por Europa. Durante el año
+                        2015 realizó
+                        giras con la Orquesta Juvenil del Bicentenario.</p>
+                    <p>En el 2016 se mudó a la Ciudad Autónoma de Buenos Aires e ingresa en la Orquesta Encuentro y la
+                        Orquesta
+                        Sinfónica Juvenil Nacional José De San Martín. También formó parte de la Orquesta Típica
+                        Andariega,
+                        realizando una gira por Europa en 2017.</p>
+                    <p>Actualmente se desempeña como docente particular de violín. Forma parte de La Martino Orquesta
+                        Típica y
+                        del Ensamble Sintonía.</p>
                 </div>
             </div>
         </div>
+        <div class="container-aboutUs">
+            <div class="row">
+                <div class="col-6">
+                    <p style="font-family: 'Rouge Script'; font-size: 3vw;">Emilia Juárez</p>
+                    <p>Empezó sus estudios de violoncello a los 12 años en la Orquesta Escuela de General San Martín,
+                        perteneciente
+                        al Programa Provincial de Orquestas Escuela, de la cual formó parte durante 5 años.</p>
+                    <p>En el 2014 comenzó el Profesorado en Música, orientación en instrumento: violoncello en el
+                        Conservatorio
+                        "A.L.Schiuma"; actualmente continúa la carrera en el Conservatorio "J.J.Castro", en la cátedra
+                        del
+                        reconocido cellista André Mouroux.</p>
+                    <p>Desde el 2016 forma parte de la Orquesta "Sinfónica Joven" a cargo del Maestro Roberto Luvini,
+                        perteneciente
+                        al Conservatorio "J.J.Castro".</p>
+                    <p>Durante su formación ha abordado repertorio sinfónico y de cámara, popular y ópera, a través de
+                        los conjuntos
+                        en los que participó y con los cuales se presentó en diferentes teatros y espacios reconocidos
+                        de Buenos
+                        Aires.</p>
+                    <p>En diferentes oportunidades ha participado como músico en obras de teatro independiente y, desde
+                        el 2018, trabaja
+                        como cellista en cuartetos de cuerdas para eventos.
+                        También se desempeña en el ámbito artístico como actriz y cantante.</p>
+                </div>
+                <div class="col-6">
+                    <div class="container-quartet">
+                        <img src="static/Image03.JPG" class="emi-nico">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-aboutUs">
+            <div class="row">
+                <div class="col-6">
+                    <div class="container-quartet">
+                        <img src="static/Image04.JPG" class="bice-marisol">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p style="font-family: 'Rouge Script'; font-size: 3vw;">Marisol Canessa</p>
+                    <p>Realizó estudios completos de la carrera “Profesorado de Música, con especialización en
+                        instrumento violín”,
+                        en el Conservatorio Superior de Música Manuel de Falla.</p>
+                    <p>Integró diversas formaciones Orquestales en las que abordó repertorio Sinfónico, de Ópera, de
+                        Ballet y de
+                        Cámara, con las cuales se presentó en los más importantes escenarios de Buenos Aires. En el
+                        Interior del
+                        país se presentó en Chubut, Entre Ríos, Cordoba, Rio Negro, y en el exterior en Brasil y
+                        Uruguay.</p>
+                    <p>Desde el 2000 a la actualidad participó en la “Orquesta Típica Imperial”, “Orquesta Típica de
+                        Estilos
+                        Tangueros” de la Academia Nacional de Tango, “Sexteto Unitango”, “Orquesta Sans Souci”,
+                        “Orquesta la Brava”,
+                        “Orquesta de Osvaldo Requena”, “Gran Orquesta de la VI cumbre Mundial de Tango”, “Orquesta de
+                        Roberto Siri”,
+                        “Cuarteto de Osvaldo Requena” y “Sexteto Milonguero”.</p>
+                    <p>Del 2000 a la fecha giró por distintos países de Europa, América y Asia con las agrupaciones
+                        anteriormente mencionadas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-aboutUs">
+            <div class="row">
+                <div class="col-6">
+                    <p style="font-family: 'Rouge Script'; font-size: 3vw;">Nicolás Javier Jan</p>
+                    <p>Comenzó sus estudios musicales en el año 2007. Actualmente se encuentra cursando su tercer año de
+                        la carrera
+                        "Profesorado de Música, Orientación Violín" en el Conservatorio Juan José Castro, bajo la tutela
+                        del Maestro
+                        Jacinto Ronan.</p>
+                    <p>Como violinista, formó parte de la "Orquesta Sinfónica Juvenil de San Isidro" (dirigida por el
+                        Maestro
+                        Ramiro Soto Monllor), la "Orquesta Sinfónica Joven" (dirigida por el Maestro Roberto Luvini), la
+                        "Orquesta Encuentro" y el "Ensamble Sintonía" (dirigidos por el Maestro Mauricio Weintraub).</p>
+                    <p>Desde el año 2016 dicta clases particulares de violín, y trabajó como docente en instituciones
+                        educativas.</p>
+                </div>
+                <div class="col-6">
+                    <div class="container-quartet">
+                        <img src="static/Image05.JPG" class="emi-nico">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Page2" style="display:none">
 
-        <!-- Scripts -->
-        
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        <div class="container">
+            <div class="jumbotron">
+
+
+                <form name="gform" id="gform" enctype="text/plain"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLScLhkGRj6_91mGs50gZHM3e7dCgr64C9Uuz_2glEC-bTSB_vA/formResponse?"
+                    target="hidden_iframe" onsubmit="submitted=true;">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" name="entry.1767969503" id="entry.1767969503" class="form-control"
+                                    placeholder="Nombre"><br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" name="entry.1601537241" id="entry.1601537241" class="form-control"
+                                    placeholder="E-Mail de contacto"><br>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" name="entry.1821902072" id="entry.1821902072" class="form-control"
+                                    placeholder="Número de Teléfono de contacto"><br>
+                            </div>
+                        </div>
+                        <textarea type="text" name="entry.2064998161" id="entry.2064998161" class="form-control"
+                            placeholder="Mensaje" rows="5"></textarea><br>
+
+                        <input type="submit" value="Enviar" onclick="alertFunction()" class="btn btn-light">
+                    </div>
+
+            </div>
+        </div>
+
+        <script>
+            function alertFunction() {
+                alert("Gracias! Nos estaremos comunicando con Usted a la brevedad!");
+            }
+        </script>
+        </form>
+
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    </body>
+</body>
+
 </html>
